@@ -1,5 +1,5 @@
 {
-  "name": "peterjohnhunt-snippets",
+  "name": "atom-peterjohnhunt-snippets",
   "main": "./lib/peterjohnhunt-snippets",
   "version": "1.0.0",
   "description": "A Custom Snippets Library",
@@ -12,7 +12,7 @@
   "activationCommands": {
     "atom-workspace": "peterjohnhunt-snippets:toggle"
   },
-  "repository": "https://github.com/atom/peterjohnhunt-snippets",
+  "repository": "https://github.com/peterjohnhunt/atom-peterjohnhunt-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

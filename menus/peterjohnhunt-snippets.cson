@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle peterjohnhunt-snippets'
+      'command': 'peterjohnhunt-snippets:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'peterjohnhunt-snippets'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'peterjohnhunt-snippets:toggle'
+        }
+      ]
+    ]
+  }
+]

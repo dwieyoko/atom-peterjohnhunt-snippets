@@ -6,14 +6,30 @@ Custom Snippets Library
 
 Snippet  | Description
 ------------- | -------------
-`cs-sec`  | Coffee Script Section Comment
+`sec`  | Coffee Script Section Comment
+
+## JavaScript Snippets
+
+Snippet  | Description
+------------- | -------------
+`sec` | JS Section Comment
+`dir` | JS Directory Comment
+
+## CSS/SCSS Snippets
+
+Snippet  | Description
+------------- | -------------
+`sec` | CSS/SCSS Section Comment
+`dir` | CSS/SCSS Directory Comment
+
 
 ## HTML Snippets
 
 Snippet  | Description
 ------------- | -------------
 `d` | Basic Div
-`h-sec` | HTML Section Comment
+`sec` | HTML Section Comment
+`dir` | HTML Directory Comment
 
 ## PHP Snippets
 

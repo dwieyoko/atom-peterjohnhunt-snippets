@@ -142,6 +142,24 @@
             <?php endif; ?>
             <?php wp_reset_postdata(); ?>$13
         """
+    'WP Get Terms':
+        'prefix': 'get_terms'
+        'body': """
+            <?php
+                $taxonomies = array(
+                    '${1:taxonomy_name}',
+                );
+
+                $args = array(
+                    ${2:'orderby'           => ${3:'name'},}
+                    ${4:'order'             => ${5:'ASC'},}
+                    ${6:'hide_empty'        => ${7:true},}
+                    ${8:'parent'            => ${9:''},}
+                );
+
+                $terms = get_terms($taxonomies, $args);
+            ?>$10
+        """
     #===================================================#
     # & ACF
     #===================================================#

@@ -23,6 +23,7 @@ Snippet  | Description
 `_` | log function
 `wp_nav_menu` | wp nav menu with args
 `wp_query` | WP Query with args
+`get_terms` | WP Get Terms with args
 
 ### ACF
 Snippet  | Description

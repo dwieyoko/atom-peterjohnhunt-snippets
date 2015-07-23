@@ -49,9 +49,11 @@ Snippet  | Description
 `gsf` | ACF Get Sub Field
 `tsf` | ACF The Sub Field
 `gfo` | ACF Get Field Option
-`tfo` | ACF Get Field Option
+`tfo` | ACF The Field Option
+`gft` | ACF Get Field Taxonomy
+`tft` | ACF The Field Taxonomy
 `gfi` | ACF Get Field If
-`gsfi` | ACF Get Field If
+`gsfi` | ACF Get Sub Field If
 `rl` | ACF Repeater Loop
 `fl` | ACF Flexlayout Loop
 `fli` | ACF Flexlayout Loop Else If

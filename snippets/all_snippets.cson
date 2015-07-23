@@ -184,6 +184,12 @@
     'ACF The Field Option':
         'prefix': 'tfo'
         'body': 'the_field( \'$1\', \'option\' )$2'
+    'ACF Get Field Taxonomy':
+        'prefix': 'gft'
+        'body': 'get_field( \'$1\', \'${2:taxonomy_slug}_\'.${3:term_id} )$4'
+    'ACF The Field Taxonomy':
+        'prefix': 'tft'
+        'body': 'the_field( \'$1\', \'${2:taxonomy_slug}_\'.${3:term_id} )$4'
 
     # + ACF_IFs
     #===================================================#

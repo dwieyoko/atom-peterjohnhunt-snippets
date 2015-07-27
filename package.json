@@ -9,9 +9,6 @@
     "LLT",
     "Wordpress"
   ],
-  "activationCommands": {
-    "atom-workspace": "peterjohnhunt-snippets:toggle"
-  },
   "repository": "https://github.com/peterjohnhunt/atom-peterjohnhunt-snippets",
   "license": "MIT",
   "engines": {
